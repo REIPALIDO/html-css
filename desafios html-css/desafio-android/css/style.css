@@ -13,6 +13,7 @@
 }
 body{
     background-color:  rgba(6, 255, 130, 0.568);
+    
 }
 header{
     background-image: linear-gradient(180deg, rgb(37, 206, 122),rgb(26, 82, 54)
@@ -25,7 +26,7 @@ header > h1{
     text-align: center;
     text-transform:uppercase ;
     font-family:'Pathway Gothic One', sans-serif;
-    font-size: 3.4em;
+    font-size: 3.0em;
     padding: 30px;
     color: rgb(235, 235, 235);
     text-shadow: 2px 2px 4px #0000008e;
@@ -36,7 +37,7 @@ header > h2{
     font-size: 1.3em;
     font-weight: 100;
     line-height: 19px;
-    padding: 0px 10px 50px 10px;
+    padding: 0px 10px 10px 10px;
     color: #ebebeb;
 }
 #navbar li{
@@ -61,7 +62,8 @@ header > h2{
 /* Começo main  */
 main{
     text-align: left;
-    width: 1000px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: 0px auto 20px auto;
     font-size: 1.5em;
     background-color: white;
@@ -72,8 +74,7 @@ main{
 
 }
 p{
-    line-height:30px;
-    
+    line-height: 2em;
 }
 .title :where( h1 ,h2){
     font-family: 'idroid';
@@ -85,7 +86,9 @@ p{
     background-image: linear-gradient(90deg,  #1fb1686e, #fff);
 }
 #irina{
-    width: 980px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 980px;
     padding: 10px;
     text-align: center;
 }
@@ -96,7 +99,8 @@ p{
 #dan > img{
     display: flex;
     justify-content: center;
-    width: 960px;
+    min-width: 300px;
+    max-width: 960px;
 }
 #lista{
     margin: 30px;
@@ -122,8 +126,12 @@ p{
     display: inline-block;
     margin-left: 40px;
     padding: 10px;
+    columns:2;
+
 }
-#android{
+#android {
+    min-width: 300px;
+    max-width: 980px;
     display: block;
     margin: 50px auto 30px auto;
 }
