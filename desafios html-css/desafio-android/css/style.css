@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@font-face {
+    font-family:'idroid';
+    src: url(../fonts/idroid.otf) format(opentype);
+}
+
+/* Comeco header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:  rgba(6, 255, 130, 0.568);
+}
+header{
+    background-image: linear-gradient(180deg, rgb(37, 206, 122),rgb(26, 82, 54)
+    );
+    padding-bottom: 10px;
+    box-shadow: 0px 2px 15px 1px;
+}
+
+header > h1{
+    text-align: center;
+    text-transform:uppercase ;
+    font-family:'Pathway Gothic One', sans-serif;
+    font-size: 3.4em;
+    padding: 30px;
+    color: rgb(235, 235, 235);
+    text-shadow: 2px 2px 4px #0000008e;
+}
+
+header > h2{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 19px;
+    padding: 0px 10px 50px 10px;
+    color: #ebebeb;
+}
+#navbar li{
+    display: inline;
+    margin: 10px;
+    font-size: 1.25em;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+#navbar a:hover{
+    background-color: #1fb168 ;
+    color: rgb(26, 82, 54);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+/* fim header */
+
+/* Começo main  */
+main{
+    text-align: left;
+    width: 1000px;
+    margin: 0px auto 20px auto;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px ;
+    box-shadow: 0px 8px 21px -2px #000000d4;
+    
+
+}
+p{
+    line-height:30px;
+    
+}
+.title :where( h1 ,h2){
+    font-family: 'idroid';
+    color: rgb(44, 105, 74);
+    margin: 0px 15px 15px 0px;
+}
+.subt{
+    padding-left: 5px;
+    background-image: linear-gradient(90deg,  #1fb1686e, #fff);
+}
+#irina{
+    width: 980px;
+    padding: 10px;
+    text-align: center;
+}
+#dan{
+    display: flex;
+    justify-content: center;
+}
+#dan > img{
+    display: flex;
+    justify-content: center;
+    width: 960px;
+}
+#lista{
+    margin: 30px;
+    padding: 10px;
+    background-color: #06ff8338;
+    border-radius: 30px;
+    box-shadow: 5px 5px 12px -6px #000000;
+
+}
+#lista h3{
+    border-radius: 30px 30px 0px 0px; 
+    padding:10px ;
+    background-color: #3ec481;
+    margin: -10px;
+    color: #fff;
+}
+#lista p{
+    text-indent: 40px;
+    padding: 10px;
+    line-height:30px;
+}
+#lista ul{
+    display: inline-block;
+    margin-left: 40px;
+    padding: 10px;
+}
+#android{
+    display: block;
+    margin: 50px auto 30px auto;
+}
+#android-video{
+    display: flex;
+    justify-content: center;
+    background-color:#2c694a ;
+    padding: 20px;
+    margin: 0px -20px 0px -20px;
+}
+.n1{
+    text-indent: 40px;
+}
+footer{
+    text-align: center;
+    background-color:#2c694a ;
+    color: #fff;
+    padding: 10px;
+}
+.palavra{
+    font-weight: bolder;
+    color: #2c694a;
+}
+.linke{
+    font-weight: bolder;
+    color: #2c694a;
+    background-color: #3ec48183;
+    padding: 2px;
+}
+.linke::after{
+    content: '🧷';
+}
