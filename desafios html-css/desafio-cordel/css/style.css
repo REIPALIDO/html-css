@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Passion+One:wght@400;700;900&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Passion+One:wght@400&family=Pathway+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 *{
@@ -6,7 +6,7 @@
     padding: 0;
 }
 :root{
---fonte1: 'passion one', 'sans-serif';   
+--fonte1: 'Passion One', 'sans-serif';   
 --fonte2: 'Sriracha', 'arial';  
 --cor1:black;
 --cor2:white;
@@ -16,6 +16,22 @@
 height:100px ;
 color: var(--cor2);
 background: var(--cor1);
-font-family: var(--fonte1), ;
-padding: 50px;
+font-family: var(--fonte1);
+padding: 90px 50px 90px 50px;
+text-align: center;
+font-size: 2.5em;
+}
+#cabecalho > p{
+    font-size: 0.6em;
+}
+#cabecalho a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+#cabecalho a:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: var(--fonte2);
 }
