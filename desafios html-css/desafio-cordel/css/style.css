@@ -67,3 +67,29 @@ main{
     background-color: rgba(0, 0, 0, 0.452);
     padding: 20px;
 }
+#img2{
+    position: relative;
+
+    background-image: url(../img/background002.jpg);
+    width: 100%;
+    margin-left: 0px;
+    height: 700px;
+    background-size: cover;
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+#img2 > p {
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    color: white;
+    margin-left: 30px;
+    transform: translate( 0, -50%);
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
