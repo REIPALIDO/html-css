@@ -21,9 +21,11 @@ padding: 90px 50px 110px 50px;
 text-align: center;
 font-size: 2.5em;
 margin-bottom: 120px;
+font-variant: small-caps;
 }
 #cabecalho > p{
-    font-size: 0.6em;
+    font-size: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #cabecalho a{
     text-decoration: none;
@@ -37,13 +39,14 @@ main{
     font-family: var(--fonte2);
 }
 .estrofe{
-    width: 400px;
+    width: 500px;
     margin: 30px;
     font-family: var(--fonte2);
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 2.6vw;
     line-height: 2.5em;
-    margin-bottom: 100px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
     /* border: solid black 2px; */
 }
 #img1{
