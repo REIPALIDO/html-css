@@ -57,18 +57,21 @@ main{
     margin-left: 0px;
     height: 700px;
     background-size: cover;
-    background-position: bottom right;
+    background-position: center right;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgb(0, 0, 0);
+    
 }
 #img1 > p {
     position: absolute;
     top: 50%;
-    width: 400px;
+    max-width: 400px;
     color: white;
     margin-left: 30px;
     transform: translate( 0, -50%);
     background-color: rgba(0, 0, 0, 0.452);
     padding: 20px;
+    text-shadow: 1px 1px 0px black
 }
 #img2{
     position: relative;
@@ -80,16 +83,18 @@ main{
     background-size: cover;
     background-position: bottom right;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.404);
 }
 #img2 > p {
     position: absolute;
     top: 50%;
-    width: 400px;
+    max-width: 400px;
     color: white;
     margin-left: 30px;
     transform: translate( 0, -50%);
     background-color: rgba(0, 0, 0, 0.452);
     padding: 20px;
+    text-shadow: 1px 1px 0px black
 }
 footer{
     text-align: center;
